@@ -30,12 +30,9 @@ The Flow Builder is a tool designed to help users create linear flows comprising
   *  can build new linear flows using the predefined steps, viewing their descriptions.
   *  can run already created flows, progressing through all added steps.
   *  can skip and unlimitedly add any steps to a flow.
-  *  can see analytics (`timestamp`), displayed for each flow.
   *  can delete flows from the system.
-  *  can see an error screen with a message, for incorrect inputs.
-     >  Note: The error screen allows users to retry or skip steps.
 
-- Users can navigate steps by completing actions or skipping. The analytics provided include flow start/completion count, screen skip count, and error count.
+- Users can navigate steps by completing actions or skipping.
 
 ### Overview
 
@@ -48,32 +45,7 @@ Classes and objects represent the steps, flows, and analytics. Encapsulation lim
 * C++ IDE
 * Git
 
-#### Setup
-
-1. Clone the repository and install the dependencies.
-
-```bash
-git clone https://github.com/gmelania/Flow-Builder-Project.git
-```
-
-2. Access the repository directory and open `src` in your IDEA.
-
-> `src` directory layout:
-
-### 
-    .
-    ├── flows.h               # flow header file
-    ├── main.cpp              # `main` file 
-    └── steps.h               # steps header file
-
-3. Run the main method in the command line to start the flow creation and show the layout of steps/actions.
-
-```bash
-g++ main.cpp -o main
-.\main
-```
-
 ### Contributors
-Ghirda Melania - Project Developer
+Despoiu Sabina - Project Developer
 
 Chis Daniel/POLITEHNICA Bucuresti National University for Science and Technology - Coordonator
